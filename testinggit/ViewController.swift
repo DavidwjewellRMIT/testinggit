@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
        let text=mainButton.titleLabel?.text
         print (text)
+        let output=text
+        print (output)
 
     }
 
