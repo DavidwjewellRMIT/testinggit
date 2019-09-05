@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var mainButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+       let text=mainButton.titleLabel?.text
+        print (text)
+
     }
 
 
